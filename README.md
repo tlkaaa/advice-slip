@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Advice Slip
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Generate random advice slips or search advice slips with keywords or ID. Advice can be saved and reviewed later.
 
-Currently, two official plugins are available:
+## Project Status
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All functionality is fully functional. Currently working on aesthetic.
 
-## Expanding the ESLint configuration
+### Build With
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React (vite)
+- React-Bootstrap 2.10.0
+- API used: [Advice Slip JSON API](https://api.adviceslip.com/)
 
-- Configure the top-level `parserOptions` property like this:
+### Reflection
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Advice Slip was my first project built using React(TypeScript). This project was build with the mind of Project Based Learning, learning through trials and error to understand the concept of React as well as TypeScript. Even it was the first time using both technologies, I am able to learn the basics quickly and able to build a fully functional React app with TypeScript within 2 weeks.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The main challenge for this project was to think in React, which was quite different from using HTML, CSS and Js as React uses components which HTML uses a top-down approach. Also, I was struggling with the syntax of TypeScript at first as there are more rules and requirements.
+
+I'm eager to dive deeper into React through building more complex project and learn more about different best practices using React. I'm ready to embrace the challenges and opportunities that come with learning React, and also to see how it can elevate my skills as a developer.
