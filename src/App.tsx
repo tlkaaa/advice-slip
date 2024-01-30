@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import SearchText from "./components/SearchText";
 import RandomAdviceText from "./components/RandomAdviceText";
 import SavedAdvice from "./components/SavedAdvice";
-import Nav from "./components/Navigation";
 import {
   SearchContext,
   RandomContext,
