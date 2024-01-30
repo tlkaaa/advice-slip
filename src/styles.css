@@ -1,0 +1,45 @@
+
+
+.save-button {
+    border: none;
+}
+
+.random-advice-card{
+    height:60vh;
+    border: none;
+}
+
+.toast {
+    color: green;
+}
+
+.random-spinner{
+    animation-duration: .5s;
+}
+
+.random-spinner:first-child{
+    animation-duration: .55s;
+}
+
+.random-spinner:nth-child(2){
+    animation-duration: .6s;
+}
+
+.random-spinner:nth-child(3){
+    animation-duration: .65s;
+}
+
+.random-spinner:nth-child(4){
+    animation-duration: .7s;
+}
+
+.random-spinner:nth-child(5){
+    animation-duration: .75s;
+}
+
+.random-spinner:last-child{
+    animation-duration: .8s;
+}
+
+
+
