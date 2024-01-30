@@ -78,15 +78,15 @@ function App() {
     setSavedAdvice(removeSaved);
   }
 
-  // Load localStorage to savedAdvice state
+  // Load sessionStorage to savedAdvice state
   useEffect(() => {
-    const JSONadvice = localStorage.getItem("savedAdvice");
+    const JSONadvice = window.localStorage.getItem("savedAdvice");
     setSavedAdvice(JSON.parse(JSONadvice || ""));
   }, []);
 
-  // Overwrite localStorage when savedAdvice is modified
+  // Overwrite sessionStorage when savedAdvice is modified
   useEffect(() => {
-    localStorage.setItem("savedAdvice", JSON.stringify(savedAdvice));
+    window.localStorage.setItem("savedAdvice", JSON.stringify(savedAdvice));
   }, [savedAdvice]);
 
   // Fetch Advice(s) based on the inputText or id.
