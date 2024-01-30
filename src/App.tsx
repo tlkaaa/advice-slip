@@ -81,7 +81,10 @@ function App() {
   // Load sessionStorage to savedAdvice state
   useEffect(() => {
     const JSONadvice = window.localStorage.getItem("savedAdvice");
-    setSavedAdvice(JSON.parse(JSONadvice || ""));
+
+    if (typeof JSONadvice === "string") {
+      setSavedAdvice(JSON.parse(JSONadvice));
+    }
   }, []);
 
   // Overwrite sessionStorage when savedAdvice is modified
