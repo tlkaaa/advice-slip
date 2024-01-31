@@ -10,6 +10,7 @@ All functionality is fully functional. Currently working on aesthetic.
 
 - React (vite)
 - React-Bootstrap 2.10.0
+- TypeScript
 - API used: [Advice Slip JSON API](https://api.adviceslip.com/)
 
 ### Reflection
